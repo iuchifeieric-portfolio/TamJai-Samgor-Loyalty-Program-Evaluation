@@ -3,6 +3,8 @@
 I was responsible for "***Current Problems of the Loyalty Program***". The following part "***Improvements Could Be Done***" was based on my part and proposed possible solutions to resolve the existing problems. [->PDF](TamjaiLPSlides.pdf)
 
 ## 1. Data Colletion & Pre-processing
+[-> Web Scraping Notebook](codes/TamjaiWebScraping.ipynb)
+
 ![](images/GooglePlay.png)
 Data was scrapped on Google Play and "Newest" comments were selected to make sure those comments were representing the latest status of the loyalty program. <br><br> <!--need 2 breaklines-->
 
@@ -10,6 +12,7 @@ Data was scrapped on Google Play and "Newest" comments were selected to make sur
 Based on the comments, the existing problems were classified into **7 different categories**. <br><br>
 
 ## 2. Visualizations on Findings
+[-> Visualizations Notebook](codes/TamjaiLP.ipynb)
 ### 7 Problem Categories
 > 1. **Forced Joining** (Forcing customers to join the loyalty program)
 > 2. **Functionality Issues** (Dine-in ordering system is loading very slowly, but customers are able to place their order eventually)

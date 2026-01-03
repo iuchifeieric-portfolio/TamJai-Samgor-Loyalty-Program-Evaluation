@@ -1,9 +1,8 @@
 # TamJai-Samgor-Loyalty-Program-Evaluation
 
-I was responsible for "***Current Problems of the Loyalty Program***". The following part "***Improvements Could Be Done***" was based on my part and proposed possible solutions to resolve the existing problems. [->PDF](TamjaiLPSlides.pdf)
+I was responsible for "***Current Problems of the Loyalty Program***". The following part "***Improvements Could Be Done***" was based on my part and proposed possible solutions to resolve the existing problems.
 
-## 1. Data Colletion & Pre-processing
-[-> Web Scraping Notebook](codes/TamjaiWebScraping.ipynb)
+## 1. Data Colletion & Pre-processing [---> Web Scraping Notebook](codes/TamjaiWebScraping.ipynb)
 
 ![](images/GooglePlay.png)
 Data was scrapped on Google Play and "Newest" comments were selected to make sure those comments were representing the latest status of the loyalty program. <br><br> <!--need 2 breaklines-->
@@ -11,9 +10,10 @@ Data was scrapped on Google Play and "Newest" comments were selected to make sur
 ![](images/Comments.png)
 Based on the comments, the existing problems were classified into **7 different categories**. <br><br>
 
-## 2. Visualizations on Findings
-[-> Visualizations Notebook](codes/TamjaiLP.ipynb)
-### 7 Problem Categories
+## 2. Visualizations on Findings [---> Visualizations Notebook](codes/TamjaiLP.ipynb)
+
+> [!NOTE]
+> ### 7 Problem Categories
 > 1. **Forced Joining** (Forcing customers to join the loyalty program)
 > 2. **Functionality Issues** (Dine-in ordering system is loading very slowly, but customers are able to place their order eventually)
 > 3. **App / System Issues** (Some key features are not performing their function normally, and cannot place the order)
@@ -29,8 +29,9 @@ Based on the comments, the existing problems were classified into **7 different 
 ![](images/Ratings.png)  
 There were 1021 ratings on the App, but 681 of them gave it a low rating (1 or 2 stars). -> **~67%**  
 Which means customers generally do not satisfied with it. 
-<br>
-## 3. Proposed Solutions 
+<br><br>
+
+## 3. Proposed Solutions [---> PDF Slides](TamjaiLPSlides.pdf)
 ### Remove “Forced Joining” Barrier
 - Let customers choose whether joining the loyalty program or not
 - Provide incentives or motivations for customers to join the program
@@ -46,4 +47,4 @@ Which means customers generally do not satisfied with it.
 - Be clear why data is collected and how it’s used
 
 ### Provide Value to Customers
-- Redesign the reward program or structure (e.g. [The "Spicy Passport" or "18 Districts in 180 Days" Challenge](TamjaiLPSlides.pdf))
+- Redesign the reward program or structure (e.g. The "Spicy Passport" or "18 Districts in 180 Days" Challenge)
